@@ -1,6 +1,6 @@
 # Weather-Related Power Outage Prediction on Databricks
 
-A PySpark pipeline on Databricks that combines eleven years of U.S. power grid disturbance reports with historical weather data, then trains classification models to predict whether a disturbance was weather-related. Built for ECE 606.
+A PySpark pipeline on Databricks that combines eleven years of U.S. power grid disturbance reports with historical weather data, then trains classification models to predict whether a disturbance was weather-related.
 
 It covers the full workflow on a cloud platform: raw files in AWS S3, multi-year ETL in Spark, API-based weather enrichment, and model training with Spark MLlib and PyTorch.
 
